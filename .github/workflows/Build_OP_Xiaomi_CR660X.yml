@@ -11,6 +11,7 @@
 name: Build Xiaomi CR660X
 
 on: 
+  workflow_dispatch: # Put here!!
   release:
     types: [published]
 
